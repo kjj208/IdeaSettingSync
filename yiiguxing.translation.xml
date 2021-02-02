@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Could not transfer artifact org.springframework.boot:spring-boot-dependencies:pom:2.3.7.RELEASE fromto alimaven (http:maven.aliyun.comnexuscontentgroupspublic): Transfer failed for http:maven.aliyun.comnexuscontentgroupspublicorgspringframeworkbootspring-boot-dependencies2.3.7.RELEASEspring-boot-dependencies-2.3.7.RELEASE.pom" />
       <item value="true if we are declaring a durable exchange (the exchange will survive a server restart)" />
       <item value="rue if we are declaring a durable exchange (the exchange will survive a server restart)" />
       <item value="the exchange type" />
@@ -50,12 +51,11 @@
       <item value="only If Absent" />
       <item value="starting position in the source array." />
       <item value="Internal" />
-      <item value="DEFAULTCAPACITY EMPTY ELEMENTDATA" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="281" />
-        <entry key="ENGLISH" value="283" />
+        <entry key="CHINESE" value="282" />
+        <entry key="ENGLISH" value="284" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
@@ -64,7 +64,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1611582636773" />
+    <option name="lastTrimTime" value="1612257336586" />
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
