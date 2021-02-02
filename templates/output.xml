@@ -1,3 +1,5 @@
 <templateSet group="output">
-  <template name="sout" value="System.out.println($END$);" description="打印一个字符串到System.out" toReformat="true" toShortenFQNames="true" />
+  <template name="sout" value="System.out.println($END$);" description="打印一个字符串到System.out" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
