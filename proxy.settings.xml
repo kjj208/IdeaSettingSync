@@ -1,5 +1,6 @@
 <application>
   <component name="HttpConfigurable">
-    <option name="PAC_URL" value="https://start.spring.io" />
+    <option name="USE_PAC_URL" value="true" />
+    <option name="PAC_URL" value="http://start.spring.io" />
   </component>
 </application>
