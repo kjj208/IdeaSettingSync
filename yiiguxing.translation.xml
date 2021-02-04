@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Constructs a new runtime exception with the specified detail message. The cause is not initialized, and may subsequently be initialized by a call to {@link initCause}. @param message the detail message. The detail message is saved for later retrieval by the {@link getMessage()} method." />
       <item value="A container object which may or may not contain a non-null value. If a value is present, {@code isPresent()} will return {@code true} and {@code get()} will return the value. &lt;p&gt;Additional methods that depend on the presence or absence of a contained value are provided, such as {@link orElse(java.lang.Object) orElse()} (return a default value if value not present) and {@link ifPresent(java.util.function.Consumer) ifPresent()} (execute a block of code if the value is present). &lt;p&gt;This is a &lt;a href=&quot;..langdoc-filesValueBased.html&quot;&gt;value-based&lt;a&gt; class; use of identity-sensitive operations (including reference equality ({@code ==}), identity hash code, or synchronization) on instances of {@code Optional} may have unpredictable results and should be avoided. @since 1.8" />
       <item value="Internal" />
       <item value="Could not transfer artifact org.springframework.boot:spring-boot-dependencies:pom:2.3.7.RELEASE fromto alimaven (http:maven.aliyun.comnexuscontentgroupspublic): Transfer failed for http:maven.aliyun.comnexuscontentgroupspublicorgspringframeworkbootspring-boot-dependencies2.3.7.RELEASEspring-boot-dependencies-2.3.7.RELEASE.pom" />
@@ -50,12 +51,11 @@
       <item value="for (int i = 0; i &lt; 6; i++) { new Thread(() -&gt; { System.out.println(Thread.currentThread().getName()+&quot;\t离开教室&quot;); },String.valueOf(i)).start(); } System.out.println(&quot;关门&quot;);" />
       <item value="Invalid bound statement" />
       <item value="evict" />
-      <item value="only If Absent" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="284" />
-        <entry key="ENGLISH" value="286" />
+        <entry key="CHINESE" value="285" />
+        <entry key="ENGLISH" value="287" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
