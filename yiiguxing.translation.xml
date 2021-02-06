@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value=".R" />
       <item value="pojo" />
       <item value="Business" />
       <item value="Constructs a new runtime exception with the specified detail message. The cause is not initialized, and may subsequently be initialized by a call to {@link initCause}. @param message the detail message. The detail message is saved for later retrieval by the {@link getMessage()} method." />
@@ -50,7 +51,6 @@
       <item value="Rejected" />
       <item value="Synchronous Queue" />
       <item value="Count Down Latch" />
-      <item value="for (int i = 0; i &lt; 6; i++) { new Thread(() -&gt; { System.out.println(Thread.currentThread().getName()+&quot;\t离开教室&quot;); },String.valueOf(i)).start(); } System.out.println(&quot;关门&quot;);" />
     </histories>
     <option name="languageScores">
       <map>
