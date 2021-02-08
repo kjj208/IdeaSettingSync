@@ -26,9 +26,17 @@
           <option name="url" value="https://github.com/lansinuote/Spring-Oauth2-Toturials.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/mmzsblog/mapstructDemo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/erupt/erupt-example.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/MyDocuments/git/git_temp" />
+    <option name="cloneParentDir" value="$USER_HOME$/MyDocuments/design-git" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
