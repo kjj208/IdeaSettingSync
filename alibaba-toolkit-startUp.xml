@@ -1,6 +1,7 @@
 <application>
   <component name="TipsStore">
     <option name="globalFirstStartUp" value="false" />
+    <entry projectPath="$USER_HOME$/MyDocuments/design-git/erupt-test" startUpFlag="FIRST" />
     <entry projectPath="$USER_HOME$/MyDocuments/design/designpattern" startUpFlag="FIRST" />
     <entry projectPath="$USER_HOME$/MyDocuments/git/git_temp/mapstructDemo" startUpFlag="FIRST" />
     <entry projectPath="$USER_HOME$/MyDocuments/git/git_test/RuoYi" startUpFlag="FIRST" />
