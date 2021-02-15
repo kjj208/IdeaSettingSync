@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="retrieve" />
       <item value="Returns the authorities granted to the user. Cannot return &lt;code&gt;null&lt;code&gt;. @return the authorities, sorted by natural key (never &lt;code&gt;null&lt;code&gt;)" />
       <item value="This constructor should only be used by &lt;code&gt;AuthenticationManager&lt;code&gt; or &lt;code&gt;AuthenticationProvider&lt;code&gt; implementations that are satisfied with producing a trusted (i.e. {@link isAuthenticated()} = &lt;code&gt;true&lt;code&gt;) authentication token." />
       <item value="authentication" />
@@ -50,12 +51,11 @@
       <item value="offer" />
       <item value="poll" />
       <item value="peek" />
-      <item value="Returns the (non-null) Node at the specified element index." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="293" />
-        <entry key="ENGLISH" value="294" />
+        <entry key="CHINESE" value="294" />
+        <entry key="ENGLISH" value="295" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SLOVENIAN" value="1" />
