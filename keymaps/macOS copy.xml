@@ -63,6 +63,7 @@
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="Find" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
@@ -103,7 +104,7 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="meta f" />
   </action>
   <action id="ReplaceInPath" />
   <action id="SearchEverywhere">
