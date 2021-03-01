@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="em Punish" />
       <item value="tingWith,40] - Generating unique operation named: editUsingPUT_3 21:12:07.261 [restartedMain] INFO s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: exportUsingGET_3 21:12:07.262 [restartedMain] INFO s.d.s.w.r.o.CachingOperationNameGenerator - [sta" />
       <item value="S" />
       <item value="m" />
@@ -50,14 +51,14 @@
       <item value="init Table" />
       <item value="Replaces all linked nodes in bin at index for given hash unless * table is too small, in which case resizes instead." />
       <item value="The next size value at which to resize (capacity * load factor)." />
-      <item value="the table is in creation mode." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="298" />
+        <entry key="CHINESE" value="299" />
         <entry key="ENGLISH" value="299" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
+        <entry key="PORTUGUESE" value="1" />
         <entry key="SLOVENIAN" value="1" />
         <entry key="SPANISH" value="2" />
         <entry key="ITALIAN" value="4" />
