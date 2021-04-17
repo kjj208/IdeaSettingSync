@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Mate" />
+      <item value="An annotation to create utility classes. If a class is annotated with {@code @UtilityClass}, the following things happen to it:&lt;ul&gt; &lt;li&gt;It is marked final.&lt;li&gt; &lt;li&gt;If any constructors are declared in it, an error is generated. Otherwise, a private no-args constructor is generated; it throws a {@code UnsupportedOperationException}.&lt;li&gt; &lt;li&gt;All methods, inner classes, and fields in the class are marked static.&lt;li&gt; &lt;li&gt;&lt;em&gt;WARNING:&lt;em&gt; Do not use non-star static imports to import these members; javac won't be able to figure it out. Use either: &lt;code&gt;import static ThisType.;&lt;code&gt; or don't static-import.&lt;li&gt; &lt;ul&gt;" />
       <item value="correct" />
       <item value="Logger" />
       <item value="em Punish" />
@@ -49,13 +51,11 @@
       <item value="Barrier" />
       <item value="Semaphore" />
       <item value="usable bits of normal node hash" />
-      <item value="Table initialization and resizing control. When negative, the * table is being initialized or resized: -1 for initialization, * else -(1 + the number of active resizing threads). Otherwise, * when table is null, holds the initial table size to use upon * creation, or 0 for default. After initialization, holds the * next element count value upon which to resize the table. */" />
-      <item value="init Table" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="299" />
-        <entry key="ENGLISH" value="300" />
+        <entry key="CHINESE" value="302" />
+        <entry key="ENGLISH" value="303" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
@@ -67,7 +67,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1615274315737" />
+    <option name="lastTrimTime" value="1618674130169" />
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
