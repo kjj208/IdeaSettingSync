@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="lockservice" />
       <item value="INFO" />
       <item value="Mate" />
       <item value="An annotation to create utility classes. If a class is annotated with {@code @UtilityClass}, the following things happen to it:&lt;ul&gt; &lt;li&gt;It is marked final.&lt;li&gt; &lt;li&gt;If any constructors are declared in it, an error is generated. Otherwise, a private no-args constructor is generated; it throws a {@code UnsupportedOperationException}.&lt;li&gt; &lt;li&gt;All methods, inner classes, and fields in the class are marked static.&lt;li&gt; &lt;li&gt;&lt;em&gt;WARNING:&lt;em&gt; Do not use non-star static imports to import these members; javac won't be able to figure it out. Use either: &lt;code&gt;import static ThisType.;&lt;code&gt; or don't static-import.&lt;li&gt; &lt;ul&gt;" />
@@ -50,12 +51,11 @@
       <item value="acquire" />
       <item value="** * Releases a permit, returning it to the semaphore. * * &lt;p&gt;Releases a permit, increasing the number of available permits by * one. If any threads are trying to acquire a permit, then one is * selected and given the permit that was just released. That thread * is (re)enabled for thread scheduling purposes. * * &lt;p&gt;There is no requirement that a thread that releases a permit must * have acquired that permit by calling {@link #acquire}. * Correct usage of a semaphore is established by programming convention * in the application. */" />
       <item value="Barrier" />
-      <item value="Semaphore" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="302" />
-        <entry key="ENGLISH" value="303" />
+        <entry key="CHINESE" value="303" />
+        <entry key="ENGLISH" value="304" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
