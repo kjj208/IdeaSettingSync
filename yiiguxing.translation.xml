@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="agent" />
+      <item value="encrypt" />
       <item value="lockservice" />
       <item value="INFO" />
       <item value="Mate" />
@@ -49,13 +51,11 @@
       <item value="Content Negotiating View Resolver" />
       <item value="release" />
       <item value="acquire" />
-      <item value="** * Releases a permit, returning it to the semaphore. * * &lt;p&gt;Releases a permit, increasing the number of available permits by * one. If any threads are trying to acquire a permit, then one is * selected and given the permit that was just released. That thread * is (re)enabled for thread scheduling purposes. * * &lt;p&gt;There is no requirement that a thread that releases a permit must * have acquired that permit by calling {@link #acquire}. * Correct usage of a semaphore is established by programming convention * in the application. */" />
-      <item value="Barrier" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="303" />
-        <entry key="ENGLISH" value="304" />
+        <entry key="CHINESE" value="305" />
+        <entry key="ENGLISH" value="306" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
