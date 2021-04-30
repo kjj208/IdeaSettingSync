@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="nio" />
       <item value="agent" />
       <item value="encrypt" />
       <item value="lockservice" />
@@ -50,16 +51,16 @@
       <item value="Handler Interceptor" />
       <item value="Content Negotiating View Resolver" />
       <item value="release" />
-      <item value="acquire" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="305" />
+        <entry key="CHINESE" value="306" />
         <entry key="ENGLISH" value="306" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="PORTUGUESE" value="1" />
+        <entry key="SWEDISH" value="1" />
         <entry key="SLOVENIAN" value="1" />
         <entry key="SPANISH" value="2" />
         <entry key="ITALIAN" value="4" />
