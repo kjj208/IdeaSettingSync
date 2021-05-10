@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="select" />
       <item value="nio" />
       <item value="agent" />
       <item value="encrypt" />
@@ -50,7 +51,6 @@
       <item value="tracker" />
       <item value="Handler Interceptor" />
       <item value="Content Negotiating View Resolver" />
-      <item value="release" />
     </histories>
     <option name="languageScores">
       <map>
@@ -68,7 +68,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1619605228410" />
+    <option name="lastTrimTime" value="1620628698987" />
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
