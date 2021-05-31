@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="available" />
+      <item value="java.lang.IllegalStateException: Failed to check the status of the service com.ylzinfo.ehc.empi.service.db.IEmpiMmpConfigService. No provider available for the service com.ylzinfo.ehc.empi.service.db.IEmpiMmpConfigService from the url zookeeper:127.0.0.1:12181com.alibaba.dubbo.registry.RegistryService?application=ehc-empi-web&amp;default.timeout=1000000&amp;dubbo=2.5.3&amp;interface=com.ylzinfo.ehc.empi.service.db.IEmpiMmpConfigService&amp;methods=selectByPrimaryKey,insertSelective,updateByPrimaryKeySelective,updateByPrimaryKey,insert,deleteByPrimaryKey&amp;pid=10373&amp;revision=1.0&amp;side=consumer&amp;timestamp=1622445366882 to the consumer 192.168.34.2 use dubbo version 2.5.3" />
+      <item value="No provider available for the service com.ylzinfo.ehc.empi.service.db" />
+      <item value="nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.ylzinfo.ehc.empi.service.db.IEmpiMmpConfigService com.ylzinfo.ehc.empi.web.xm.UserTypePageController.empiMmpConfigService;" />
+      <item value="nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.ylzinfo.empi.credit.web.QueryUserCreditStateService com.ylzinfo.ehc.empi.service.sdk.old.SdkCreditQueryService.queryUserCreditStateService;" />
+      <item value="[ERROR] [DUBBO] Error creating bean with name 'com.ylzinfo.ehc.empi.service.sdk.ISdkCreditQueryService': Cannot resolve reference to bean 'sdkCreditQueryService' while setting bean property 'ref'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sdkCreditQueryService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.ylzinfo.empi.credit.web.QueryUserCreditStateService com.ylzinfo.ehc.empi.service.sdk.old.SdkCreditQueryService.queryUserCreditStateService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'queryUserCreditStateService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.ylzinfo.empi.credit.engine.UserEngineService com.ylzinfo.empi.credit.web.QueryUserCreditStateService.userEngineService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userEngineService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.ylzinfo.empi.credit.async.AsyncUserInfoService com.ylzinfo.empi.credit.engine.UserEngineService.asyncUserInfoService; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'asyncUserInfoService': Bean with name 'asyncUserInfoService' has been injected into other beans [creditEngineService] in its raw version as part of a circular reference, but has eventually been wrapped. This means that said other beans do not use the final version of the bean. This is often the result of over-eager type matching - consider using 'getBeanNamesOfType' with the 'allowEagerInit' flag turned off, for example., dubbo version: 2.5.3, current host: 192.168.34.2 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ylzinfo.ehc.empi.service.sdk.ISdkCreditQueryService': Cannot resolve reference to bean 'sdkCreditQueryService' while setting bean property 'ref'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sdkCreditQueryService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.ylzinfo.empi.credit.web.QueryUserCreditStateService com.ylzinfo.ehc.empi.service.sdk.old.SdkCreditQueryService.queryUserCreditStateService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'queryUserCreditStateService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.ylzinfo.empi.credit.engine.UserEngineService com.ylzinfo.empi.credit.web.QueryUserCreditStateService.userEngineService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userEngineService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.ylzinfo.empi.credit.async.AsyncUserInfoService com.ylzinfo.empi.credit.engine.UserEngineService.asyncUserInfoService; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'asyncUserInfoService': Bean with name 'asyncUserInfoService' has been injected into other beans [creditEngineService] in its raw version as part of a circular reference, but has eventually been wrapped. This means that said other beans do not use the final version of the bean. This is often the result of over-eager type matching - consider using 'getBeanNamesOfType' with the 'allowEagerInit' flag turned off, for example." />
+      <item value="nested" />
+      <item value="[ERROR] [DUBBO] Error creating bean with name 'com.ylzinfo.ehc.empi.service.sdk.ISdkCreditQueryService': Cannot resolve reference to bean 'sdkCreditQueryService' while setting bean property 'ref'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sdkCreditQueryService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.ylzinfo.empi.credit.web.QueryUserCreditStateService com.ylzinfo.ehc.empi.service.sdk.old.SdkCreditQueryService.queryUserCreditStateService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'queryUserCreditStateService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.ylzinfo.empi.credit.engine.UserEngineService com.ylzinfo.empi.credit.web.QueryUserCreditStateService.userEngineService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userEngineService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.ylzinfo.empi.credit.async.AsyncUserInfoService com.ylzinfo.empi.credit.engine.UserEngineService.asyncUserInfoService; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'asyncUserInfoService': Bean with name 'asyncUserInfoService' has been injected into other beans [creditEngineService] in its raw version as part of a circular reference, but has eventually been wrapped. This means that said other beans do not use the final version of the bean. This is often the result of over-eager type matching - consider using 'getBeanNamesOfType' with the 'allowEagerInit' flag turned off, for example., dubbo version: 2.5.3, current host: 192.168.34.2" />
+      <item value="relocated" />
       <item value="select" />
       <item value="nio" />
       <item value="agent" />
@@ -42,22 +51,14 @@
       <item value="Publish a message." />
       <item value="Publish a message. Publishing to a non-existent exchange will result in a channel-level protocol exception, which closes the channel. Invocations of &lt;code&gt;ChannelbasicPublish&lt;code&gt; will eventually block if a &lt;a href=&quot;http:www.rabbitmq.comalarms.html&quot;&gt;resource-driven alarm&lt;a&gt; is in effect. @see com.rabbitmq.client.AMQP.Basic.Publish @see &lt;a href=&quot;http:www.rabbitmq.comalarms.html&quot;&gt;Resource-driven alarms&lt;a&gt; @param exchange the exchange to publish the message to @param routingKey the routing key @param props other properties for the message - routing headers etc @param body the message body @throws java.io.IOException if an error is encountered" />
       <item value="Invocation" />
-      <item value="Isolation" />
-      <item value="Propagation" />
-      <item value="/* * InheritableThreadLocal values pertaining to this thread. This map is * maintained by the InheritableThreadLocal class. */" />
-      <item value="/* ThreadLocal values pertaining to this thread. This map is maintained * by the ThreadLocal class. */" />
-      <item value="initial Value" />
-      <item value="Custom Constant" />
-      <item value="tracker" />
-      <item value="Handler Interceptor" />
-      <item value="Content Negotiating View Resolver" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="306" />
-        <entry key="ENGLISH" value="306" />
+        <entry key="CHINESE" value="312" />
+        <entry key="ENGLISH" value="313" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
+        <entry key="LUXEMBOURGISH" value="3" />
         <entry key="ROMANIAN" value="4" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="SWEDISH" value="1" />
@@ -68,7 +69,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1620628698987" />
+    <option name="lastTrimTime" value="1622443815637" />
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
