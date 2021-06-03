@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="is Available" />
       <item value="available" />
       <item value="java.lang.IllegalStateException: Failed to check the status of the service com.ylzinfo.ehc.empi.service.db.IEmpiMmpConfigService. No provider available for the service com.ylzinfo.ehc.empi.service.db.IEmpiMmpConfigService from the url zookeeper:127.0.0.1:12181com.alibaba.dubbo.registry.RegistryService?application=ehc-empi-web&amp;default.timeout=1000000&amp;dubbo=2.5.3&amp;interface=com.ylzinfo.ehc.empi.service.db.IEmpiMmpConfigService&amp;methods=selectByPrimaryKey,insertSelective,updateByPrimaryKeySelective,updateByPrimaryKey,insert,deleteByPrimaryKey&amp;pid=10373&amp;revision=1.0&amp;side=consumer&amp;timestamp=1622445366882 to the consumer 192.168.34.2 use dubbo version 2.5.3" />
       <item value="No provider available for the service com.ylzinfo.ehc.empi.service.db" />
@@ -50,12 +51,11 @@
       <item value="Publishing to a non-existent exchange will result in a channel-level protocol exception, which closes the channel." />
       <item value="Publish a message." />
       <item value="Publish a message. Publishing to a non-existent exchange will result in a channel-level protocol exception, which closes the channel. Invocations of &lt;code&gt;ChannelbasicPublish&lt;code&gt; will eventually block if a &lt;a href=&quot;http:www.rabbitmq.comalarms.html&quot;&gt;resource-driven alarm&lt;a&gt; is in effect. @see com.rabbitmq.client.AMQP.Basic.Publish @see &lt;a href=&quot;http:www.rabbitmq.comalarms.html&quot;&gt;Resource-driven alarms&lt;a&gt; @param exchange the exchange to publish the message to @param routingKey the routing key @param props other properties for the message - routing headers etc @param body the message body @throws java.io.IOException if an error is encountered" />
-      <item value="Invocation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="312" />
-        <entry key="ENGLISH" value="313" />
+        <entry key="CHINESE" value="313" />
+        <entry key="ENGLISH" value="314" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
