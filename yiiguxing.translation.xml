@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="was cached in the local repository, resolution will not be reattempted until the update interval of ylzpay-public has elapsed or updates are forced. Original error: Could not transfer metadata com.yhtech.archetypes:yhaf-quickstart:1.0.0-SNAPSHOTmaven-metadata.xml fromto ylzpay-public" />
+      <item value="[WARNING] Archetype not found in any catalog. Falling back to central repository. [WARNING] Add a repository with id 'archetype' in your settings.xml if archetype's repository is elsewhere." />
       <item value="Forbid" />
       <item value="is Available" />
       <item value="available" />
@@ -49,13 +51,11 @@
       <item value="the tag from the received" />
       <item value="other properties for the message - routing headers etc" />
       <item value="the exchange to publish the message to" />
-      <item value="Publishing to a non-existent exchange will result in a channel-level protocol exception, which closes the channel." />
-      <item value="Publish a message." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="315" />
-        <entry key="ENGLISH" value="316" />
+        <entry key="CHINESE" value="317" />
+        <entry key="ENGLISH" value="318" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
@@ -69,7 +69,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1623294285673" />
+    <option name="lastTrimTime" value="1623773439500" />
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
