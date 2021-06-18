@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="conflicts with existing" />
+      <item value="Unexpected exception parsing XML document from file" />
+      <item value="existing" />
+      <item value="Bean Definition Store Exception" />
+      <item value="Unexpected" />
       <item value="was cached in the local repository, resolution will not be reattempted until the update interval of ylzpay-public has elapsed or updates are forced. Original error: Could not transfer metadata com.yhtech.archetypes:yhaf-quickstart:1.0.0-SNAPSHOTmaven-metadata.xml fromto ylzpay-public" />
       <item value="[WARNING] Archetype not found in any catalog. Falling back to central repository. [WARNING] Add a repository with id 'archetype' in your settings.xml if archetype's repository is elsewhere." />
       <item value="Forbid" />
@@ -46,16 +51,11 @@
       <item value="rue if we are declaring a durable exchange (the exchange will survive a server restart)" />
       <item value="the exchange type" />
       <item value="Actively declare a non-autodelete exchange with no extra arguments @see com.rabbitmq.client.AMQP.Exchange.Declare @see com.rabbitmq.client.AMQP.Exchange.DeclareOk @param exchange the name of the exchange @param type the exchange type @param durable true if we are declaring a durable exchange (the exchange will survive a server restart) @throws java.io.IOException if an error is encountered @return a declaration-confirm method to indicate the exchange was successfully declared" />
-      <item value="Wait until all messages published since the last call have been either ack'd or nack'd by the broker. Note, when called on a non-Confirm channel, waitForConfirms throws an IllegalStateException. @return whether all the messages were ack'd (and none were nack'd) @throws java.lang.IllegalStateException" />
-      <item value="true to acknowledge all messages up to and including the supplied delivery tag; false to acknowledge just the supplied delivery tag." />
-      <item value="the tag from the received" />
-      <item value="other properties for the message - routing headers etc" />
-      <item value="the exchange to publish the message to" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="317" />
-        <entry key="ENGLISH" value="318" />
+        <entry key="CHINESE" value="323" />
+        <entry key="ENGLISH" value="324" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
