@@ -1,7 +1,6 @@
 <application>
   <component name="EasyCodeSetting">
     <option name="author" value="chenjunjie" />
-    <option name="currTemplateGroupName" value="yhaf-6-21" />
     <option name="templateGroupMap">
       <map>
         <entry key="Default">
@@ -80,11 +79,11 @@
               <option name="elementList">
                 <list>
                   <Template>
-                    <option name="code" value="##导入宏定义&#10;$!define&#10;  &#10;##保存文件（宏定义）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;  &#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;entity&quot;)&#10;  &#10;##自动导入包（全局变量）&#10;$!autoImport&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;import lombok.Setter;&#10;  &#10;##表注释（宏定义）&#10;#tableComment(&quot;表实体类&quot;)&#10;@Getter&#10;@Setter&#10;@NoArgsConstructor&#10;public class $!{tableInfo.name} {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})//${column.comment}#end&#10;  &#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;}" />
+                    <option name="code" value="##导入宏定义&#10;$!define&#10;  &#10;##保存文件（宏定义）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;  &#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;entity&quot;)&#10;  &#10;##自动导入包（全局变量）&#10;$!autoImport&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;import lombok.Setter;&#10;  &#10;##表注释（宏定义）&#10;#tableComment(&quot;表实体类&quot;)&#10;@Getter&#10;@Setter&#10;@NoArgsConstructor&#10;public class $!{tableInfo.name} {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})/**&#10;    * ${column.comment}&#10;    */#end&#10;  &#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;}" />
                     <option name="name" value="entity" />
                   </Template>
                   <Template>
-                    <option name="code" value="##导入宏定义&#10;$!define&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/dto&quot;, &quot;DTO.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;dto&quot;)&#10;&#10;##自动导入包（全局变量）&#10;$!autoImport&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;import lombok.Setter;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表实体类&quot;)&#10;@Getter&#10;@Setter&#10;@NoArgsConstructor&#10;public class $!{tableInfo.name}DTO {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})//${column.comment}#end&#10;&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;}" />
+                    <option name="code" value="##导入宏定义&#10;$!define&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/dto&quot;, &quot;DTO.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;dto&quot;)&#10;&#10;##自动导入包（全局变量）&#10;$!autoImport&#10;import lombok.Getter;&#10;import lombok.NoArgsConstructor;&#10;import lombok.Setter;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表数据传输类&quot;)&#10;@Getter&#10;@Setter&#10;@NoArgsConstructor&#10;public class $!{tableInfo.name}DTO {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})/**&#10;    * ${column.comment}&#10;    */#end&#10;    &#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;}" />
                     <option name="name" value="dto" />
                   </Template>
                   <Template>
