@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Specifies the component model to which the generated mapper should adhere. Supported values are &lt;ul&gt; &lt;li&gt; {@code default}: the mapper uses no component model, instances are typically retrieved via {@link MappersgetMapper(Class)}&lt;li&gt; &lt;li&gt; {@code cdi}: the generated mapper is an application-scoped CDI bean and can be retrieved via {@code @Inject}&lt;li&gt; &lt;li&gt; {@code spring}: the generated mapper is a Spring bean and can be retrieved via {@code @Autowired}&lt;li&gt; &lt;li&gt; {@code jsr330}: the generated mapper is annotated with {@code @javax.inject.Named} and {@code @Singleton}, and can be retrieved via {@code @Inject}&lt;li&gt; &lt;ul&gt; The method overrides an unmappedTargetPolicy set in a central configuration set by {@link config() } @return The component model for the generated mapper." />
       <item value="Unsatisfied Dependency Exception" />
       <item value="occurred" />
       <item value="inclusion" />
@@ -50,12 +51,11 @@
       <item value="A container object which may or may not contain a non-null value. If a value is present, {@code isPresent()} will return {@code true} and {@code get()} will return the value. &lt;p&gt;Additional methods that depend on the presence or absence of a contained value are provided, such as {@link orElse(java.lang.Object) orElse()} (return a default value if value not present) and {@link ifPresent(java.util.function.Consumer) ifPresent()} (execute a block of code if the value is present). &lt;p&gt;This is a &lt;a href=&quot;..langdoc-filesValueBased.html&quot;&gt;value-based&lt;a&gt; class; use of identity-sensitive operations (including reference equality ({@code ==}), identity hash code, or synchronization) on instances of {@code Optional} may have unpredictable results and should be avoided. @since 1.8" />
       <item value="Internal" />
       <item value="Could not transfer artifact org.springframework.boot:spring-boot-dependencies:pom:2.3.7.RELEASE fromto alimaven (http:maven.aliyun.comnexuscontentgroupspublic): Transfer failed for http:maven.aliyun.comnexuscontentgroupspublicorgspringframeworkbootspring-boot-dependencies2.3.7.RELEASEspring-boot-dependencies-2.3.7.RELEASE.pom" />
-      <item value="true if we are declaring a durable exchange (the exchange will survive a server restart)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="326" />
-        <entry key="ENGLISH" value="327" />
+        <entry key="CHINESE" value="327" />
+        <entry key="ENGLISH" value="328" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
