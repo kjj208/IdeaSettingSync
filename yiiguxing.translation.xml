@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Unsatisfied Dependency Exception" />
       <item value="occurred" />
       <item value="inclusion" />
       <item value="conflicts with existing" />
@@ -50,12 +51,11 @@
       <item value="Internal" />
       <item value="Could not transfer artifact org.springframework.boot:spring-boot-dependencies:pom:2.3.7.RELEASE fromto alimaven (http:maven.aliyun.comnexuscontentgroupspublic): Transfer failed for http:maven.aliyun.comnexuscontentgroupspublicorgspringframeworkbootspring-boot-dependencies2.3.7.RELEASEspring-boot-dependencies-2.3.7.RELEASE.pom" />
       <item value="true if we are declaring a durable exchange (the exchange will survive a server restart)" />
-      <item value="rue if we are declaring a durable exchange (the exchange will survive a server restart)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="325" />
-        <entry key="ENGLISH" value="326" />
+        <entry key="CHINESE" value="326" />
+        <entry key="ENGLISH" value="327" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
