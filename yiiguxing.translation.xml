@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Exception In Initializer Error" />
       <item value="Configures which api operations (via regex patterns) and HTTP methods to apply security contexts to apis. @param securityContexts - defines security requirements for the apis @return this Docket" />
       <item value="Configures the global io.swagger.model.SecurityScheme's applicable to all or some of the api operations. The configuration of which operations have associated SecuritySchemes is configured with springfox.swagger.plugins.DocketsecurityContexts @param securitySchemes a list of security schemes @return this Docket" />
       <item value="Predicate that evaluates the supplied ant pattern @param antPattern - ant Pattern @return predicate that matches a particular ant pattern" />
@@ -8,7 +9,6 @@
       <item value="Detected both log4j-over-slf4j.jar AND slf4j-log4j12.jar on the class path, preempting StackOverflowError" />
       <item value="Error starting child" />
       <item value="Detected both log4j-over-slf4j.jar AND slf4j-log4j12.jar on the class path, preempting StackOverflowError." />
-      <item value="Exception In Initializer Error" />
       <item value="Specifies the component model to which the generated mapper should adhere. Supported values are &lt;ul&gt; &lt;li&gt; {@code default}: the mapper uses no component model, instances are typically retrieved via {@link MappersgetMapper(Class)}&lt;li&gt; &lt;li&gt; {@code cdi}: the generated mapper is an application-scoped CDI bean and can be retrieved via {@code @Inject}&lt;li&gt; &lt;li&gt; {@code spring}: the generated mapper is a Spring bean and can be retrieved via {@code @Autowired}&lt;li&gt; &lt;li&gt; {@code jsr330}: the generated mapper is annotated with {@code @javax.inject.Named} and {@code @Singleton}, and can be retrieved via {@code @Inject}&lt;li&gt; &lt;ul&gt; The method overrides an unmappedTargetPolicy set in a central configuration set by {@link config() } @return The component model for the generated mapper." />
       <item value="Unsatisfied Dependency Exception" />
       <item value="occurred" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="335" />
-        <entry key="ENGLISH" value="336" />
+        <entry key="CHINESE" value="336" />
+        <entry key="ENGLISH" value="337" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
