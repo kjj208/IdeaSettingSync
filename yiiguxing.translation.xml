@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="y cannot be cast to ch.qos.logback.classic.LoggerContext" />
       <item value="Exception In Initializer Error" />
       <item value="Configures which api operations (via regex patterns) and HTTP methods to apply security contexts to apis. @param securityContexts - defines security requirements for the apis @return this Docket" />
       <item value="Configures the global io.swagger.model.SecurityScheme's applicable to all or some of the api operations. The configuration of which operations have associated SecuritySchemes is configured with springfox.swagger.plugins.DocketsecurityContexts @param securitySchemes a list of security schemes @return this Docket" />
@@ -50,12 +51,11 @@
       <item value="Quartz Scheduler Ruoyi Scheduler" />
       <item value="generator" />
       <item value="Thread Pool Executor" />
-      <item value="col_1_0_" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="336" />
-        <entry key="ENGLISH" value="337" />
+        <entry key="CHINESE" value="337" />
+        <entry key="ENGLISH" value="338" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
