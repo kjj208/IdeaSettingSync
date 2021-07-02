@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="actuator" />
       <item value="Class path contains multiple SLF4J bindings." />
       <item value="for an explanation" />
       <item value="y cannot be cast to ch.qos.logback.classic.LoggerContext" />
@@ -50,12 +51,11 @@
       <item value="m" />
       <item value="Invalid Property" />
       <item value="Spring Context Shutdown Hook" />
-      <item value="Quartz Scheduler Ruoyi Scheduler" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="341" />
-        <entry key="ENGLISH" value="342" />
+        <entry key="CHINESE" value="342" />
+        <entry key="ENGLISH" value="343" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
