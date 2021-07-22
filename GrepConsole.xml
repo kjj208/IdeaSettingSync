@@ -83,17 +83,18 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*DEBUG.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
                             <GrepColor>
-                              <option name="color" value="-12826958" />
+                              <option name="color" value="-10001665" />
                             </GrepColor>
                           </option>
                           <option name="foregroundColor">
                             <GrepColor>
-                              <option name="color" value="-13934944" />
+                              <option name="color" value="-11041560" />
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
