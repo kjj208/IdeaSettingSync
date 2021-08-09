@@ -1,8 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="Method Argument Not Valid" />
       <item value="Method Argument Not Valid Exception" />
+      <item value="Illegal Argument Exception" />
+      <item value="Method Argument Not Valid" />
       <item value="the detail message." />
       <item value="Constructs a new runtime exception with {@code null} as its detail message. The cause is not initialized, and may subsequently be initialized by a call to {@link initCause}." />
       <item value="check the manual that corresponds to" />
@@ -50,12 +51,11 @@
       <item value="relocated" />
       <item value="select" />
       <item value="nio" />
-      <item value="agent" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="356" />
-        <entry key="ENGLISH" value="357" />
+        <entry key="CHINESE" value="358" />
+        <entry key="ENGLISH" value="359" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
