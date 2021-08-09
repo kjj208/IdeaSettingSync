@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Constructs a new runtime exception with {@code null} as its detail message. The cause is not initialized, and may subsequently be initialized by a call to {@link initCause}." />
       <item value="check the manual that corresponds to" />
       <item value="manual" />
       <item value="org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect" />
@@ -50,12 +51,11 @@
       <item value="encrypt" />
       <item value="lockservice" />
       <item value="INFO" />
-      <item value="Mate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="352" />
-        <entry key="ENGLISH" value="353" />
+        <entry key="CHINESE" value="353" />
+        <entry key="ENGLISH" value="354" />
         <entry key="DANISH" value="1" />
         <entry key="CROATIAN" value="1" />
         <entry key="LUXEMBOURGISH" value="3" />
@@ -69,7 +69,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1626943063300" />
+    <option name="lastTrimTime" value="1628478035185" />
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
